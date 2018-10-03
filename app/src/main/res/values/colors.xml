@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLightWhite">#d9d9d9</color>
+    <color name="white">#ffffff</color>
+    <color name="textColor">#212121</color>
+
+    <color name="gain">#105810</color>
+    <color name="loss">#8F1114</color>
+    <color name="text">#111111</color>
+    <color name="text_light">#888888</color>
+    <color name="cursor">#B0B0B0</color>
+    <color name="hint">#B0B0B0</color>
+    <color name="background_light">#FFFFFF</color>
+    <color name="background">#EFEFEF</color>
+    <color name="background_edit_text">#F2F2F2</color>
+    <color name="header_shadow">#1F272C</color>
+    <color name="header_bottom">#FFFFFF</color>
+    <color name="outline">#AEAEAE</color>
+    <color name="actionbar_background_top1">#085010</color>
+    <color name="actionbar_background_top2">#5DB367</color>
+    <color name="actionbar_background_bottom1">#26572C</color>
+    <color name="actionbar_background_bottom2">#90C697</color>
+    <color name="actionbar_background_end">#37703E</color>
+    <color name="actionbar_background_start">#51A05A</color>
+    <color name="edit_text_background">#F8F8F8</color>
+    <color name="edit_text_inner">#EDEDED</color>
+    <color name="edit_text_outer">#959595</color>
+    <color name="divider_top">#DDDDDD</color>
+    <color name="divider_bottom">#FFFFFF</color>
+
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+
+    <color name="color_log_in">#94019c8f</color>
+    <color name="color_sign_up">#93303f9f</color>
+
+    <color name="primary_secondary">#292b3d</color>
+    <color name="color_logo_log_in">#b4faf5</color>
+    <color name="color_logo_sign_up">#bbc4fd</color>
+    <color name="grey_light">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="color_label">#ededed</color>
+    <color name="white_transparent">#fafafa</color>
+    <color name="color_input_hint">#FFF</color>
+    <color name="color_text_highlight">#fafafa</color>
+    <color name="color_text">#FFF</color>
+    <color name="black">#000</color>
+</resources>

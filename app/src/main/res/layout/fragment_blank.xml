@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragments.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#545454"
+            android:id="@+id/header"
+            android:layout_height="40sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:paddingLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_height="wrap_content"
+                android:text="TOP NEWS"/>
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1sp"-->
+                <!--android:layout_margin="10sp"-->
+                <!---->
+                <!--android:background="#000"/>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/header"
+            android:layout_width="match_parent"
+            android:id="@+id/news_header"
+            android:paddingTop="5sp"
+            android:layout_marginLeft="5sp"
+            android:paddingBottom="5sp"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="15sp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_play_arrow"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"
+                    android:textColor="@color/textColor"
+                    android:text="Malaysia in talks to become first in Asia to legalise medical marijuana"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp">
+
+                <ImageView
+                    android:layout_width="15sp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_play_arrow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"
+                    android:text="China announces plan to cut import tariffs amid brewing trade war with US"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp">
+
+                <ImageView
+                    android:layout_width="15sp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_play_arrow"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"
+                    android:textColor="@android:color/black"
+                    android:text="US Fed may raise interest rates, possibly end 'accommodative' policy era"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="#545454"
+            android:layout_marginTop="0sp"
+
+            android:id="@+id/header1"
+            android:layout_below="@+id/news_header"
+            android:layout_height="40sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:paddingLeft="20sp"
+                android:layout_height="wrap_content"
+                android:text="INTERNATIONAL INDICES"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:id="@+id/index"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:layout_marginLeft="5sp"
+            android:layout_below="@+id/header1"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:id="@+id/first"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_china"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="10sp"
+                    android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text="CSI 300 Index"
+                    android:textColor="@android:color/black"
+                    />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="#676767"
+                     android:textSize="14sp"
+                     android:text="Sept 27, 10:10"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:text="3,417.24"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:background="#67af0a">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="25sp"
+                        android:gravity="center"
+
+                        android:layout_height="wrap_content"
+                        android:text="37.44"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_marginLeft="25sp"
+                        android:layout_height="wrap_content"
+                        android:text="1.11%"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:layout_below="@+id/first"
+                android:id="@+id/second"
+                android:layout_marginTop="5sp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_japan"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="10sp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text="Nikkei 225 Index"
+                        android:textColor="@android:color/black"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#676767"
+                        android:textSize="14sp"
+                        android:text="Sept 27, 10:10"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="0.545"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:text="24,033.79"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:background="#67af0a">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="25sp"
+                        android:gravity="center"
+
+                        android:layout_height="wrap_content"
+                        android:text="93.53"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_marginLeft="25sp"
+                        android:layout_height="wrap_content"
+                        android:text="0.39%"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:layout_marginTop="5sp"
+                android:id="@+id/third"
+                android:layout_below="@+id/second"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_france"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="10sp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text="CAC 40 Index"
+                        android:textColor="@android:color/black"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#676767"
+                        android:textSize="14sp"
+                        android:text="Sept 27, 10:10"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:text="5,512.73"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:background="#67af0a">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="25sp"
+                        android:gravity="center"
+
+                        android:layout_height="wrap_content"
+                        android:text="109.5"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_marginLeft="25sp"
+                        android:layout_height="wrap_content"
+                        android:text="-0.3%"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:id="@+id/fourth"
+                android:layout_below="@+id/third"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_germany"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="10sp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text="DAX 30 Index"
+                        android:textColor="@android:color/black"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#676767"
+                        android:textSize="14sp"
+                        android:text="Sept 27, 10:10"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="0.9"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:text="12,385.89"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:background="#67af0a">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="25sp"
+                        android:gravity="center"
+
+                        android:layout_height="wrap_content"
+                        android:text="11.23"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_marginLeft="25sp"
+                        android:layout_height="wrap_content"
+                        android:text="0.091%"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:layout_marginTop="5sp"
+                android:id="@+id/fifth"
+                android:layout_below="@id/fourth"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_india"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="10sp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text="BSE Index"
+                        android:textColor="@android:color/black"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#676767"
+                        android:textSize="14sp"
+                        android:text="Sept 27, 10:10"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:text="36,542.27"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:background="#f40002">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="25sp"
+                        android:gravity="center"
+
+                        android:layout_height="wrap_content"
+                        android:text="109.5"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_marginLeft="25sp"
+                        android:layout_height="wrap_content"
+                        android:text="-0.3%"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:layout_marginTop="5sp"
+                android:id="@+id/sixth"
+                android:layout_below="@id/fifth"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_united_states_of_america"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="10sp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text="NASDAQ-100"
+                        android:textColor="@android:color/black"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#676767"
+                        android:textSize="14sp"
+                        android:text="Sept 27, 10:10"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:text="7,615.42"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="1sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:background="#67af0a">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="25sp"
+                        android:gravity="center"
+
+                        android:layout_height="wrap_content"
+                        android:text="48.86"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_marginLeft="25sp"
+                        android:layout_height="wrap_content"
+                        android:text="0.65%"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="#545454"
+            android:layout_marginTop="0sp"
+            android:id="@+id/header2"
+            android:layout_below="@+id/index"
+            android:layout_height="40sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:paddingLeft="20sp"
+                android:layout_height="wrap_content"
+                android:text="MY PORTFOLIO"/>
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:id="@+id/floating_button"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:paddingRight="5sp"
+            android:layout_marginEnd="20sp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_shopping_cart_black_24dp"/>
+    </RelativeLayout>
+</ScrollView>
