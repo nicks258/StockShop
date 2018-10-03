@@ -44,4 +44,13 @@
     <string name="select_a_stock">Select A Stock</string>
     <string name="browse">Browse</string>
     <string name="title_activity_login">LoginActivity</string>
+
+    <string-array name="acc_type">
+        <item>CSI 300 Index</item>
+        <item>Nikkei 225 Index</item>
+        <item>CAC 40 Index</item>
+        <item>DAX 30 Index</item>
+        <item>BSE Index</item>
+        <item>NASDAQ-100</item>
+    </string-array>
 </resources>

@@ -1,13 +1,9 @@
 package com.npluslabs.stockshop;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
-import android.view.MenuItem;
-import android.widget.TextView;
 
-import com.npluslabs.stockshop.Fragments.BlankFragment;
+import com.npluslabs.stockshop.Fragments.ExchangeListFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        BlankFragment showsMenu = new BlankFragment();
+        ExchangeListFragment showsMenu = new ExchangeListFragment();
         getSupportFragmentManager().beginTransaction().replace(R.id.container, showsMenu).addToBackStack(null).commit();
 //        mTextMessage = (TextView) findViewById(R.id.message);
 //        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
